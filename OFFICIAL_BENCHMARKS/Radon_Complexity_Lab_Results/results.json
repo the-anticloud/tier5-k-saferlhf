@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "K_SAFERLHF",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 3.933333333333333
+    },
+    "complexity_grade": "A",
+    "complexity_score": 3.933333333333333,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_SAFERLHF\\UPSTREAM\\safe_rlhf\\logger.py\n    M 72:4 Logger.__new__ - C (11)\n    M 184:4 Logger.print_table - C (11)\n    C 65:0 Logger - B (7)\n    M 150:4 Logger.log - B (6)\n    F 47:0 set_logger_level - A (4)\n    M 161:4 Logger.close - A (3)\n    M 171:4 Logger.print - A (2)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_SAFERLHF\\UPSTREAM\\safe_rlhf\\utils.py\n    F 246:0 get_optimizer_grouped_parameters - B (10)\n    F 79:0 get_subclasses - A (4)\n    F 97:0 __initialize_pytree_registry_once - A (4)\n    F 70:0 str2bool - A (3)\n    F 136:0 to_device - A (3)\n    F 145:0 batch_retokenize - A (3)\n    F 173:0 is_same_tokenizer - A (3)\n    F 184:0 is_main_process - A (2)\n    F 201:0 masked_mean - A (2)\n    F 225:0 get_all_reduce_mean - A (2)\n    F 232:0 get_all_reduce_sum - A (2)\n    F 239:0 get_all_reduce_max - A (2)\n    F 60:0 seed_everything - A (1)\n    F 189:0 rank_zero_only - A (1)\n    F 211:0 gather_log_probabilities - A (1)\n    F 280:0 split_prompt_response - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_SAFERLHF\\UPSTREAM\\safe_rlhf\\_anticloud_egress.py\n    F 38:0 _is_frontier - A (4)\n    F 43:0 guarded_connect - A (4)\n    F 61:0 install - A (3)\n    F 33:0 is_offline - A (1)\n    C 29:0 EgressDenied - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_SAFERLHF\\UPSTREAM\\safe_rlhf\\configs\\deepspeed_config.py\n    F 34:0 get_deepspeed_train_config - B (9)\n    F 91:0 get_",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_SAFERLHF\\UPSTREAM\\setup.py - A (88.67)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_SAFERLHF\\UPSTREAM\\safe_rlhf\\logger.py - A (49.16)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_SAFERLHF\\UPSTREAM\\safe_rlhf\\utils.py - A (50.85)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_SAFERLHF\\UPSTREAM\\safe_rlhf\\version.py - A (92.07)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIE"
+  }
+}
